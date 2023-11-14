@@ -3,8 +3,9 @@ import Header from './components/header/header';
 import Nav from './components/navbar/navbar';
 import Apropos from './components/apropos/apropos';
 import Experience from './components/experience/experience';
-import Formation from './components/formation/formation';
+import Footer from './components/footer/footer';
 import Contact from './components/contact/contact';
+import Language from './components/languages/languages';
 
 const App = () => {
   return (
@@ -14,8 +15,10 @@ const App = () => {
     <Nav />
     <Apropos />
     <Experience />
-    <Formation />
+    <Language/>
+  
     <Contact />
+    <Footer />
 
 
     

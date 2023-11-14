@@ -1,0 +1,35 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+    background: var(--color-bg-variant);
+    justify-content: center;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 1rem;
+   
+}
+
+.experience_title_principale{
+    text-align: center;
+}
+
+.experience_title_secondaire {
+    text-align: center;
+    
+
+}
+
+.fonction_professionelles{
+    padding: 2rem;
+    text-align: center;
+   
+}
+
+.ligne {
+    border-bottom: 1px solid var(--color-title);
+    width: 150px; /* Largeur de la ligne */
+    display: inline-block;
+    margin-bottom: 0.5rem;
+   
+}
+

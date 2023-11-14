@@ -1,0 +1,27 @@
+.apropos__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 3rem;
+    
+}
+
+.apropos img{
+  border-radius: 2rem;
+  width: 100%;
+  aspect-ratio: 1/1;
+  transform: 0.5s ease-in-out;
+  
+  
+}
+.apropos img:hover{
+    transform: rotate(10deg);
+}
+
+.apropos_text{
+    padding: 2rem;
+    text-align: center;
+}
+
+.apropos_text p {
+    padding: 0.5rem;
+}
