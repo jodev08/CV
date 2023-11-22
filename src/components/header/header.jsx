@@ -1,25 +1,37 @@
-import React from 'react';
-import './header.css';
-import CTA from './cta'
+import React from 'react'
+import './header.css'
 import ME from '../../assets/image_cv.jpeg'
-import Social from './socials'
+import Cta_test from './cta_test'
+import Social from './social'
 
-const header = () => {
+const test_header = () => {
   return (
-    <header>
-      <div className='container header__container'>
-        <h5>Bonjour je m'appel</h5>
-        <h1>Stonska Jordan</h1>
-        <h5 className='text-light'>Developpeur web</h5>
-        <CTA></CTA>
-        <Social></Social>
+   
+   <section id='test_header'>
+    <div className='container header__container'>
 
-        <div className='me'>
-          <img src={ME} alt=''></img>
-        </div>
+     <div className='hero-left'>
+     <h5>Bonjour je m'appel</h5>
+        <h1>Stonska Jordan</h1>
+        <h5 className='text-ligh
+        t'>Developpeur web</h5>
+        <Cta_test></Cta_test>
+        <Social></Social>
+            
+     </div>
+
+     <div className='flexCenter hero-right'>
+      <div className='image-container'>
+       <img src={ME} alt='' />
       </div>
-    </header>
+      
+       
+
+     </div>
+
+    </div>
+   </section>
   )
 }
 
-export default header
+export default test_header
